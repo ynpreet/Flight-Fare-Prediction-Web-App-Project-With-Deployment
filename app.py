@@ -3,8 +3,13 @@ from flask_cors import cross_origin
 import sklearn
 import pickle
 import pandas as pd
+import os
+module_dir = os.path.dirname(os.path.realpath(__file__))
+template_folder = os.path.join(module_dir, 'templates')
+static_folder = os.path.join(module_dir, 'static')
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder = template_folder, static_folder = static_folder)
+
 model = pickle.load(open("flight_fare_random_forest-rf_random.pkl.pkl", "rb"))
 
 
