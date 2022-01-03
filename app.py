@@ -10,8 +10,9 @@ static_folder = os.path.join(module_dir, 'static')
 
 app = Flask(__name__, template_folder = template_folder, static_folder = static_folder)
 
-model = pickle.load(open("flight_fare_random_forest-rf_random.pkl.pkl", "rb"))
-
+# model = pickle.load(open("flight_fare_random_forest-rf_random.pkl.pkl", "rb"))
+with open("flight_fare_random_forest-rf_random.pkl.pkl", "rb") as file:
+    model = pickle.load(file)
 
 
 @app.route("/")
