@@ -346,40 +346,41 @@ def predict():
     #    'Destination_Cochin', 'Destination_Delhi', 'Destination_Hyderabad',
     #    'Destination_Kolkata', 'Destination_New Delhi']
         
-        prediction=model.predict([[
-            Total_stops,
-            Journey_day,
-            Journey_month,
-            Dep_hour,
-            Dep_min,
-            Arrival_hour,
-            Arrival_min,
-            dur_hour,
-            dur_min,
-            Air_Asia,
-            Air_India,
-            GoAir,
+        prediction=model.predict([[[
+            Air_Asia, 
+            Air_India, 
+            GoAir, 
             IndiGo,
             Jet_Airways,
             Jet_Airways_Business,
-            Multiple_carriers,
+            Multiple_carriers, 
             Multiple_carriers_Premium_economy,
             SpiceJet,
             Trujet,
             Vistara,
             Vistara_Premium_economy,
-            s_Chennai,
-            s_Delhi,
-            s_Kolkata,
-            s_Mumbai,
-            s_Banglore,
+            Arrival_Hour, 
+            Arrival_Min,
+            Day_of_Journey,
+            Dep_Hour,
+            Dep_Min,
+            d_Banglore,
             d_Cochin,
             d_Delhi,
             d_Hyderabad,
             d_Kolkata,
             d_New_Delhi,
-            d_Banglore = 0
-        ]])
+            d_Hours,
+            d_Minutes,
+            Month_of_Journey,
+            Source_Banglore,
+            Source_Chennai,
+            Source_Delhi,
+            Source_Kolkata,
+            Source_Mumbai,
+            Total_Stops,
+            Year_of_Journey
+            ]])
 
         output=round(prediction[0],2)
 
