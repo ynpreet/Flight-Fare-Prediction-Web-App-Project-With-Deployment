@@ -4,15 +4,21 @@ from flask_cors import cross_origin
 import pickle
 import pandas as pd
 import os
+import requests
 module_dir = os.path.dirname(os.path.realpath(__file__))
 template_folder = os.path.join(module_dir, 'templates')
 static_folder = os.path.join(module_dir, 'static')
 
 app = Flask(__name__, template_folder = template_folder, static_folder = static_folder)
 
-# model = pickle.load(open("flight_fare_random_forest-rf_random.pkl.pkl", "rb"))
-with open("./flight_fare_random_forest-rf_random.pkl.pkl", "rb") as file:
-    model = pickle.load(file)
+remote_url = 'https://airflight.s3.amazonaws.com/flight_fare_random_forest-rf_random.pkl.pkl'
+local_file = 'flight_fare_random_forest-rf_random.pkl.pkl'
+data = requests.get(remote_url)
+with open(local_file, 'wb')as file:
+    file.write(data.content)
+print('Model Downloaded')
+
+model = pickle.load(open("flight_fare_random_forest-rf_random.pkl.pkl", "rb"))
 
 
 @app.route("/")
