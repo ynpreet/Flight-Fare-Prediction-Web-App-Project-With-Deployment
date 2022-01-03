@@ -41,8 +41,8 @@ def predict():
         # print("Arrival : ", Arrival_hour, Arrival_min)
 
         # Duration
-        Arrival_Hour = abs(Arrival_Hour - Dep_Hour)
-        dur_min = abs(Arrival_Min - Dep_Min)
+        Duration_Hours = abs(Arrival_Hour - Dep_Hour)
+        Duration_Minutes = abs(Arrival_Min - Dep_Min)
         # print("Duration : ", dur_hour, dur_min)
 
         # Total Stops
@@ -283,7 +283,8 @@ def predict():
             d_New_Delhi = 0
             d_Hyderabad = 0
             d_Kolkata = 0
-            d_New Delhi=0
+            d_Banglore = 0
+            
         
         elif (Source == 'Delhi'):
             d_Cochin = 0
@@ -346,7 +347,7 @@ def predict():
     #    'Destination_Cochin', 'Destination_Delhi', 'Destination_Hyderabad',
     #    'Destination_Kolkata', 'Destination_New Delhi']
         
-        prediction=model.predict([[[
+        prediction=model.predict([[
             Air_Asia, 
             Air_India, 
             GoAir, 
@@ -370,14 +371,14 @@ def predict():
             d_Hyderabad,
             d_Kolkata,
             d_New_Delhi,
-            d_Hours,
-            d_Minutes,
+            Duration_Hours,
+            Duration_Minutes,
             Month_of_Journey,
-            Source_Banglore,
-            Source_Chennai,
-            Source_Delhi,
-            Source_Kolkata,
-            Source_Mumbai,
+            s_Banglore,
+            s_Chennai,
+            s_Delhi,
+            s_Kolkata,
+            s_Mumbai,
             Total_Stops,
             Year_of_Journey
             ]])
