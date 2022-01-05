@@ -24,9 +24,9 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-*  .[About The Project].()
-*  .[Motivation].()
-*  .[Technical Aspect].()
+*  .[About The Project].(#about-the-project)
+*  .[Motivation].(#motivation)
+*  .[Technical Aspect].(#technical-aspect)
 *  .[Built With].()
 *  .[Getting Started].()
 *  .[Prerequisites].()
