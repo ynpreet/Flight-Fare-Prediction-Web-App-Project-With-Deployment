@@ -72,7 +72,22 @@ If you don't have Python installed, you can find it [here](https://www.python.or
 ```bash
 pip install -r requirements.txt
 ```
+## Motivation
+People who are travelling in the flights face the problem of price fluctuation to avoid this I thought of to predict the price of the flight ticket so that passenger will have a idea of how much price of flight will be
 
+## Technical Aspect
+* Data collection: [Kaggle dataset](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh)
+
+* Perfomed exploratory data analysis, feature selection and data modelling: 
+  * Perfomed feature selection through (Univariate Selection, Feature Importance & Correlation Matrix with Heatmap)
+  * Data modelling using 7 regression models: LinearRegression(), Lasso(), Ridge(), SVR(), RandomForestRegressor(), DecisionTreeRegressor(), xgb.XGBRegressor()
+  * Hyperparameter tuning using: GridSearchCV Vs RandomizedSearchCV
+
+* As the model pickle file was greater than 100 MB, I chosed AWS S3 bucket instead of using Git LFS
+
+* I used Sublime sophisticated text editor for coding HTML and flask frame work for for web application development
+
+* Deployed the Flask app on Heroku server
 
 ## Built With
 
@@ -105,9 +120,33 @@ from sklearn.metrics import r2_score,make_scorer
 from sklearn.model_selection import cross_val_score
 ```
 
+## 💡Working 
+
+Make Sure that you Either Have *Jupyter Notebook* or *Spyder* to Run the code with amazing Visualizations and run any of the following in your Command Prompt in the directory that holds this repo. 
+
+```
+Jupyter Notebook
+```
+or
+```
+Spyder
+```
+
+## 📁 Dataset
+You can get the Dataset here
+
+[Link](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/)
+
 ## Usage: A Glimpse of Heroku Web app
 [Link to Heroku web app](https://airflightfareprediction.herokuapp.com/predict)<br>
 ![GIF](https://github.com/ynpreet/Flight-Fare-Prediction-Web-App-Project-With-Deployment/blob/main/Repository/Herokuapp/chrome_BuQeKeFIlm.gif)
+
+## Deployement on Heroku
+Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually to deploy this project.
+
+[![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
+
+The next step would be to follow the instruction given in the [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
 
 ## Roadmap: Directory Tree 
 ```
@@ -156,31 +195,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://op
 * [References](https://www.youtube.com/watch?v=y4EMEpEnElQ) 
 
 
-
-
-
-
-## Motivation
-People who are travelling in the flights face the problem of price fluctuation to avoid this I thought of to predict the price of the flight ticket so that passenger will have a idea of how much price of flight will be
-
-
-
-
-## Technical Aspect
-* Data collection: [Kaggle dataset](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh)
-
-* Perfomed exploratory data analysis, feature selection and data modelling: 
-  * Perfomed feature selection through (Univariate Selection, Feature Importance & Correlation Matrix with Heatmap)
-  * Data modelling using 7 regression models: LinearRegression(), Lasso(), Ridge(), SVR(), RandomForestRegressor(), DecisionTreeRegressor(), xgb.XGBRegressor()
-  * Hyperparameter tuning using: GridSearchCV Vs RandomizedSearchCV
-
-* As the model pickle file was greater than 100 MB, I chosed AWS S3 bucket instead of using Git LFS
-
-* I used Sublime sophisticated text editor for coding HTML and flask frame work for for web application development
-
-* Deployed the Flask app on Heroku server
-
-
 <!-- ## Installing
 ## Running the tests
 ## Break down into end to end tests
@@ -192,17 +206,8 @@ People who are travelling in the flights face the problem of price fluctuation t
 ## Contributing
 ## Versioning -->
 
-## Deployement on Heroku
-Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually to deploy this project.
 
-[![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
-
-The next step would be to follow the instruction given in the [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
-
-
-
-
-## 💃Authors
+## 💃Author
 
 * **Preet Mehta**  
 <p>
@@ -215,7 +220,6 @@ The next step would be to follow the instruction given in the [Heroku Documentat
 </a>  
   
 <!-- ![Medium](mediumlogo/medium-seeklogo.com.svg?raw=true "Title") -->
-
  
 <a href="https://www.instagram.com/ynpreet/" target="blank">
   <img align="left" src="https://github.com/ynpreet/Ynpreet/blob/main/images/Instagram%20(1).svg" alt="instagram" width="24px" />
@@ -227,29 +231,8 @@ The next step would be to follow the instruction given in the [Heroku Documentat
 
 
 
-
-
-## 📁 Dataset
-You can get the Dataset here
-
-[Link](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/)
-
-## 💡Working 
-
-Make Sure that you Either Have *Jupyter Notebook* or *Spyder* to Run the code with amazing Visualizations and run any of the following in your Command Prompt in the directory that holds this repo. 
-
-```
-Jupyter Notebook
-```
-or
-```
-Spyder
-```
-
 ## Future Scope
 
 * Use multiple Algorithms
-* Optimize Flask app.py
-* Front-End 
-* 
-
+* Optimize the performance of Flask app.py
+* Front-End development
