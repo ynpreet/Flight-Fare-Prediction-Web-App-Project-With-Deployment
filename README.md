@@ -34,6 +34,23 @@ Welcome to my Getting Started Guide.
 [Link to Heroku web app](https://airflightfareprediction.herokuapp.com/predict)<br>
 ![GIF](https://github.com/ynpreet/Flight-Fare-Prediction-Web-App-Project-With-Deployment/blob/main/Repository/Herokuapp/chrome_BuQeKeFIlm.gif)
 
+## Motivation
+People who are travelling in the flights face the problem of price fluctuation to avoid this I thought of to predict the price of the flight ticket so that passenger will have a idea of how much price of flight will be
+
+## Technical Aspect
+- Data collection: [Kaggle dataset](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh)
+
+- Perfomed exploratory data analysis, feature selection, data modelling 
+ - Perfomed feature selection through (Univariate Selection, Feature Importance & Correlation Matrix with Heatmap)
+ - Data modelling using 7 regression models: LinearRegression(), Lasso(), Ridge(), SVR(), RandomForestRegressor(), DecisionTreeRegressor(), xgb.XGBRegressor()
+ - Hyperparameter tuning using: GridSearchCV Vs RandomizedSearchCV
+
+- As the model pickle file was greater than 100 MB, I chosed AWS S3 bucket instead of using Git LFS
+
+- I used Sublime sophisticated text editor for coding HTML and flask frame work for for web application development
+
+- Deployed the Flask app on Heroku server
+
 ## 🔑Prerequisites
 
 ```
