@@ -178,6 +178,13 @@ or
 ```
 Spyder
 ```
+
+## Future Scope
+
+* Use multiple Algorithms
+* Optimize Flask app.py
+* Front-End 
+* 
 ## 👏And it's done!
 
 - <details> <summary> 💬 Problem Solver. Passion Catalyst. Change Maker. Love simulating conversations especially if done over beer. Feel free to contact in case of any query or to collaborate to work on ML projects😎 </summary> <a href="https://wa.me/919408377842" target="blank"><img align="center" src="https://github.com/ynpreet/Ynpreet/blob/main/images/5ae21cc526c97415d3213554.png" width="40x" /></a>
