@@ -15,6 +15,7 @@ pandas
 python-dateutil==2.8.1
 pytz==2019.3
 urllib3
+boto3
 scikit-learn
 scipy
 six==1.14.0
