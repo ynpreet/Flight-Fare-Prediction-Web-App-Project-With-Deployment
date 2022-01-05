@@ -24,14 +24,26 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
+*  [About The Project](#about-the-project)
+*  [Motivation]
+*  [Technical Aspect]
+*  [Built With]
+*  [Getting Started]
+*  [Prerequisites]
+*  [Working]
+*  [Dataset]
+*  [Usage: A Glimpse of Heroku Web app]
+*  [Deployement on Heroku]
+*  [Roadmap: Directory Tree]
+*  [Bug / Feature Request]
+*  [Contributing]
+*  [License]
+*  [And it's done!]
+*  [Acknowledgments]
+*  [Author]
+*  [Future Scope]
 
-  * [Getting Started](#getting-started)
-  * [About the App](#prerequisites)
-  * [Deployement on Heroku](#deployement-on-heroku)
-  * [Technologies Used](#technologies-used)
-  * [Bug / Feature Request](#bug---feature-request)
-
-</ol>
+  </ol>
 </details>
 
 ## About The Project
