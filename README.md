@@ -45,6 +45,26 @@
 *  [Author]
 *  [Future Scope]
 
+*  .[About The Project].
+*  .[Motivation].
+*  .[Technical Aspect].
+*  .[Built With].
+*  .[Getting Started].
+*  .[Prerequisites].
+*  .[Working].
+*  .[Dataset].
+*  .[Usage: A Glimpse of Heroku Web app].
+*  .[Deployement on Heroku].
+*  .[Roadmap: Directory Tree].
+*  .[Bug / Feature Request].
+*  .[Contributing].
+*  .[License].
+*  .[And it's done!].
+*  .[Acknowledgments].
+*  .[Author].
+*  .[Future Scope].
+![image](https://user-images.githubusercontent.com/66984648/148302985-a3739fdb-fc0a-4470-8753-28026f399c74.png)
+    
   </ol>
 </details>
 
@@ -280,5 +300,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://op
 * Optimize the performance of Flask app.py
 * Front-End development
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-import { BsFillArrowUpSquareFill } from "react-icons/bs";
