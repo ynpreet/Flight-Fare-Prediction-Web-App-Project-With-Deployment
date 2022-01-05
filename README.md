@@ -21,9 +21,10 @@
 ![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![Scikit-Learn](https://img.shields.io/badge/Library-ScikitLearn-orange.svg)
 
 
-<ol>
-<details> 
-## Table of Contents
+<details>
+  <summary>## Table of Contents</summary>
+  <ol>
+
   * [Getting Started](#getting-started)
   * [About the App](#prerequisites)
   * [Deployement on Heroku](#deployement-on-heroku)
