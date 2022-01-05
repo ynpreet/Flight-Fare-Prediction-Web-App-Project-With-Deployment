@@ -72,8 +72,12 @@ If you don't have Python installed, you can find it [here](https://www.python.or
 ```bash
 pip install -r requirements.txt
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Motivation
 People who are travelling in the flights face the problem of price fluctuation to avoid this I thought of to predict the price of the flight ticket so that passenger will have a idea of how much price of flight will be
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Technical Aspect
 * Data collection: [Kaggle dataset](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh)
@@ -89,11 +93,15 @@ People who are travelling in the flights face the problem of price fluctuation t
 
 * Deployed the Flask app on Heroku server
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Built With
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
 [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>](https://scikit-learn.org/stable/)[<img target="_blank" src="https://miro.medium.com/max/1280/1*Mom9A9c2MVqI-V-KPz14ag.png" width=200>](https://s3.console.aws.amazon.com/s3/home?region=us-east-1&region=us-east-1)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Getting Started
 Welcome to my Getting Started Guide.  Here are some instructions on setting up your project locally:
@@ -119,6 +127,7 @@ import xgboost as xgb
 from sklearn.metrics import r2_score,make_scorer
 from sklearn.model_selection import cross_val_score
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 💡Working 
 
@@ -131,15 +140,21 @@ or
 ```
 Spyder
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ## 📁 Dataset
 You can get the Dataset here
 
 [Link](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Usage: A Glimpse of Heroku Web app
 [Link to Heroku web app](https://airflightfareprediction.herokuapp.com/predict)<br>
 ![GIF](https://github.com/ynpreet/Flight-Fare-Prediction-Web-App-Project-With-Deployment/blob/main/Repository/Herokuapp/chrome_BuQeKeFIlm.gif)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Deployement on Heroku
 Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually to deploy this project.
@@ -147,6 +162,8 @@ Login or signup in order to create virtual app. You can either connect your gith
 [![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
 
 The next step would be to follow the instruction given in the [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Roadmap: Directory Tree 
 ```
@@ -161,10 +178,15 @@ The next step would be to follow the instruction given in the [Heroku Documentat
 ├── flight_rf.pkl
 ├── requirements.txt
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ## Bug / Feature Request
 
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an [issue](https://github.com/ynpreet/Flight-Fare-Prediction-Web-App-Project-With-Deployment/issues) here by including your search query and the expected result
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
@@ -176,24 +198,29 @@ If you have a suggestion that would make this better, please fork the repo and c
 3. Commit your Changes (```git commit -m 'Add some AmazingFeature' ```)
 4. Push to the Branch (```git push origin feature/AmazingFeature ```)
 5. Open a Pull Request
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 ## 👀License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://opensource.org/licenses/MIT) file for details
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
 
 
 ## 👏And it's done!
 
 - <details> <summary> 💬 Problem Solver. Passion Catalyst. Change Maker. Love simulating conversations especially if done over beer. Feel free to contact in case of any query or to collaborate to work on ML projects😎 </summary> <a href="https://wa.me/18577019272" target="blank"><img align="center" src="https://github.com/ynpreet/Ynpreet/blob/main/images/5ae21cc526c97415d3213554.png" width="40x" /></a>
 </details>
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 🙏Acknowledgments
 
 * Special Thanks to **[Amar Mandal](https://www.linkedin.com/in/amar-mandal/)** for sharing wonderful insights about this project
 * [References](https://www.youtube.com/watch?v=y4EMEpEnElQ) 
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ## Installing
 ## Running the tests
@@ -228,7 +255,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://op
 <a href="https://www.youtube.com/channel/UCCcw6HxUkkfrlKn7-6SszDQ/featured" target="blank">
   <img align="left" src="https://github.com/ynpreet/Ynpreet/blob/main/images/youtube-logo-icon-png-svg.png" alt="youtube"  width="25px" height='23.5' />
 </a></p><br><br>
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ## Future Scope
@@ -236,3 +263,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://op
 * Use multiple Algorithms
 * Optimize the performance of Flask app.py
 * Front-End development
+<p align="right">(<a href="#top">back to top</a>)</p>
