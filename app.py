@@ -7,8 +7,8 @@ import os
 import requests
 
 #Adding boto3 access here:--------------------------------------------------------------------------
-!pip install --upgrade urllib3
-!pip install boto3
+# !pip install --upgrade urllib3
+# !pip install boto3
 import pickle
 import boto3
 import boto3.session
