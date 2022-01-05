@@ -5,6 +5,22 @@ import pickle
 import pandas as pd
 import os
 import requests
+
+#Adding boto3 access here:--------------------------------------------------------------------------
+!pip install --upgrade urllib3
+!pip install boto3
+import pickle
+import boto3
+import boto3.session
+
+cred = boto3.Session().get_credentials()
+ACCESS_KEY = 'AKIA4KZN6ANBQGQGC7FK'
+SECRET_KEY = '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'
+s3= boto3.resource(service_name='s3',region_name='us-east-1',aws_access_key_id='AKIA4KZN6ANBQGQGC7FK',aws_secret_access_key='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')
+data=s3.Bucket('airflight').Object('flight_fare_random_forest-rf_random.pkl.pkl').get()
+# ------------------------------------------------------------------------------
+
+
 module_dir = os.path.dirname(os.path.realpath(__file__))
 template_folder = os.path.join(module_dir, 'templates')
 static_folder = os.path.join(module_dir, 'static')
@@ -13,7 +29,7 @@ app = Flask(__name__, template_folder = template_folder, static_folder = static_
 
 remote_url = 'https://airflight.s3.amazonaws.com/flight_fare_random_forest-rf_random.pkl.pkl'
 local_file = 'flight_fare_random_forest-rf_random.pkl.pkl'
-data = requests.get(remote_url)
+# data = requests.get(remote_url)
 with open(local_file, 'wb')as file:
     file.write(data.content)
 print('Model Downloaded')
