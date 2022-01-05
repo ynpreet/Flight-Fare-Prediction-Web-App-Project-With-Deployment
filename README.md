@@ -33,7 +33,7 @@
 * [Prerequisites](#prerequisites)
 * [Working](#working)
 * [Dataset](#dataset)
-* [Usage: A Glimpse of Heroku Web app](#usage:-a-glimpse-of-heroku-web-app)
+* [Usage: A Glimpse of Heroku Web app](#usage-a-glimpse-of-heroku-web-app)
 * [Deployement on Heroku](#deployement-on-heroku)
 * [Roadmap: Directory Tree](#roadmap:-directory-tree)
 * [Bug / Feature Request](#bug-/-feature-request)
