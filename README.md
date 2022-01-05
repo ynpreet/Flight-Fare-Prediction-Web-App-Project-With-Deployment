@@ -25,16 +25,11 @@
   <summary>Table of Contents</summary>
   <ol>
     
-* [Demo](#demo)
-* [Overview](#overview)
-* [Motivation](#motivation)
-* [Installation](#installation)
-* [Overview](#overview)
 * [About The Project](#about-the-project)
-*  .[Motivation].(#motivation)
-*  .[Technical Aspect].(#technical-aspect)
-*  .[Built With].()
-*  .[Getting Started].()
+* [Motivation](#motivation)
+* [Technical Aspect](#technical-aspect)
+* [Built With]()
+* [Getting Started]()
 *  .[Prerequisites].()
 *  .[Working].()
 *  .[Dataset].()
