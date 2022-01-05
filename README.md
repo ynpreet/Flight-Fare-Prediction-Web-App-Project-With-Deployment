@@ -24,46 +24,24 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-*  [About The Project](#about-the-project)
-
-*  [Demo](#demo)
-    [Motivation]
-*  [Technical Aspect]
-*  [Built With]
-*  [Getting Started]
-*  [Prerequisites]
-*  [Working]
-*  [Dataset]
-*  [Usage: A Glimpse of Heroku Web app]
-*  [Deployement on Heroku]
-*  [Roadmap: Directory Tree]
-*  [Bug / Feature Request]
-*  [Contributing]
-*  [License]
-*  [And it's done!]
-*  [Acknowledgments]
-*  [Author]
-*  [Future Scope]
-
-*  .[About The Project].
-*  .[Motivation].
-*  .[Technical Aspect].
-*  .[Built With].
-*  .[Getting Started].
-*  .[Prerequisites].
-*  .[Working].
-*  .[Dataset].
-*  .[Usage: A Glimpse of Heroku Web app].
-*  .[Deployement on Heroku].
-*  .[Roadmap: Directory Tree].
-*  .[Bug / Feature Request].
-*  .[Contributing].
-*  .[License].
-*  .[And it's done!].
-*  .[Acknowledgments].
-*  .[Author].
-*  .[Future Scope].
-![image](https://user-images.githubusercontent.com/66984648/148302985-a3739fdb-fc0a-4470-8753-28026f399c74.png)
+*  .[About The Project].()
+*  .[Motivation].()
+*  .[Technical Aspect].()
+*  .[Built With].()
+*  .[Getting Started].()
+*  .[Prerequisites].()
+*  .[Working].()
+*  .[Dataset].()
+*  .[Usage: A Glimpse of Heroku Web app].()
+*  .[Deployement on Heroku].()
+*  .[Roadmap: Directory Tree].()
+*  .[Bug / Feature Request].()
+*  .[Contributing].()
+*  .[License].()
+*  .[And it's done!].()
+*  .[Acknowledgments].()
+*  .[Author].()
+*  .[Future Scope].()
     
   </ol>
 </details>
