@@ -26,11 +26,11 @@
   <ol>
     
 * [Demo](#demo)
-  * [Overview](#overview)
-  * [Motivation](#motivation)
-  * [Installation](#installation)
-*   [Overview](#overview)
-*   .[About The Project].(#about-the-project)
+* [Overview](#overview)
+* [Motivation](#motivation)
+* [Installation](#installation)
+* [Overview](#overview)
+* [About The Project](#about-the-project)
 *  .[Motivation].(#motivation)
 *  .[Technical Aspect].(#technical-aspect)
 *  .[Built With].()
