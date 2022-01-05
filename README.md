@@ -26,7 +26,8 @@
   <ol>
 *  [About The Project](#about-the-project)
 
-*  [Motivation]
+*  [Demo](#demo)
+    [Motivation]
 *  [Technical Aspect]
 *  [Built With]
 *  [Getting Started]
