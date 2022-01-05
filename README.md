@@ -24,6 +24,11 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
+    
+* [Demo](#demo)
+  * [Overview](#overview)
+  * [Motivation](#motivation)
+  * [Installation](#installation)
 *   [Overview](#overview)
 *   .[About The Project].(#about-the-project)
 *  .[Motivation].(#motivation)
