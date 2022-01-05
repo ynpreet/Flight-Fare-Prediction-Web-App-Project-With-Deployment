@@ -17,7 +17,7 @@ cred = boto3.Session().get_credentials()
 ACCESS_KEY = 'AKIA4KZN6ANBQGQGC7FK'
 SECRET_KEY = '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'
 s3= boto3.resource(service_name='s3',region_name='us-east-1',aws_access_key_id='AKIA4KZN6ANBQGQGC7FK',aws_secret_access_key='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')
-data=s3.Bucket('airflight').Object('flight_fare_random_forest-rf_random.pkl.pkl').get()
+
 # ------------------------------------------------------------------------------
 
 
@@ -27,14 +27,18 @@ static_folder = os.path.join(module_dir, 'static')
 
 app = Flask(__name__, template_folder = template_folder, static_folder = static_folder)
 
-remote_url = 'https://airflight.s3.amazonaws.com/flight_fare_random_forest-rf_random.pkl.pkl'
-local_file = 'flight_fare_random_forest-rf_random.pkl.pkl'
+data=s3.Bucket('airflight').Object('flight_fare_random_forest-rf_random.pkl.pkl').get()
+body = data['Body'].read()
+model = pickle.loads(body)
+
+# remote_url = 'https://airflight.s3.amazonaws.com/flight_fare_random_forest-rf_random.pkl.pkl'
+# local_file = 'flight_fare_random_forest-rf_random.pkl.pkl'
 # data = requests.get(remote_url)
-with open(local_file, 'wb')as file:
-    file.write(data.content)
+# with open(local_file, 'wb')as file:
+#     file.write(data.content)
 print('Model Downloaded')
 
-model = pickle.load(open("flight_fare_random_forest-rf_random.pkl.pkl", "rb"))
+# model = pickle.load(open("flight_fare_random_forest-rf_random.pkl.pkl", "rb"))
 
 
 @app.route("/")
