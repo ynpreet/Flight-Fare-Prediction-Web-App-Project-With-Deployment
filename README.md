@@ -18,6 +18,7 @@
 
 
 # Flight Price Prediction -A Regression Analysis using Random Forest
+![Link to Heroku web app](https://airflightfareprediction.herokuapp.com/predict)
 ![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![Scikit-Learn](https://img.shields.io/badge/Library-ScikitLearn-orange.svg)
 
 ## Table of Contents
