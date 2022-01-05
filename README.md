@@ -40,10 +40,10 @@ People who are travelling in the flights face the problem of price fluctuation t
 ## Technical Aspect
 - Data collection: [Kaggle dataset](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh)
 
-- Perfomed exploratory data analysis, feature selection, data modelling 
- - Perfomed feature selection through (Univariate Selection, Feature Importance & Correlation Matrix with Heatmap)
- - Data modelling using 7 regression models: LinearRegression(), Lasso(), Ridge(), SVR(), RandomForestRegressor(), DecisionTreeRegressor(), xgb.XGBRegressor()
- - Hyperparameter tuning using: GridSearchCV Vs RandomizedSearchCV
+- Perfomed exploratory data analysis, feature selection and data modelling: 
+ -- Perfomed feature selection through (Univariate Selection, Feature Importance & Correlation Matrix with Heatmap)
+ -- Data modelling using 7 regression models: LinearRegression(), Lasso(), Ridge(), SVR(), RandomForestRegressor(), DecisionTreeRegressor(), xgb.XGBRegressor()
+ -- Hyperparameter tuning using: GridSearchCV Vs RandomizedSearchCV
 
 - As the model pickle file was greater than 100 MB, I chosed AWS S3 bucket instead of using Git LFS
 
