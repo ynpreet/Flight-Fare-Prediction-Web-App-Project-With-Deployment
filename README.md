@@ -219,7 +219,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://op
 ## 🙏Acknowledgments
 
 * Special Thanks to **[Amar Mandal](https://www.linkedin.com/in/amar-mandal/)** for sharing wonderful insights about this project
-* [References](https://www.youtube.com/watch?v=y4EMEpEnElQ) 
+* [Reference](https://www.youtube.com/watch?v=y4EMEpEnElQ) 
+* [Reference for Readme.md topics](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ## Installing
