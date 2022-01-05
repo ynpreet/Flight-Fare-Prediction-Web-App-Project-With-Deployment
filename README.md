@@ -30,6 +30,9 @@
 ## Getting Started
 Welcome to my Getting Started Guide. 
 
+## A Glimpse of Heroku Web app
+![GIF](https://github.com/ynpreet/Flight-Fare-Prediction-Web-App-Project-With-Deployment/blob/main/Repository/Herokuapp/chrome_BuQeKeFIlm.gif)
+
 ## 🔑Prerequisites
 
 ```
