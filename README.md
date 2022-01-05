@@ -1,6 +1,13 @@
 # Flight Price Prediction -A Regression Analysis using Random Forest
 ![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![Scikit-Learn](https://img.shields.io/badge/Library-ScikitLearn-orange.svg)
 
+## Table of Contents
+  * [Getting Started](#getting-started)
+  * [About the App](#prerequisites)
+  * [Deployement on Heroku](#deployement-on-heroku)
+  * [Technologies Used](#technologies-used)
+  * [Bug / Feature Request](#bug---feature-request)
+
 ## Getting Started
 Welcome to my Getting Started Guide. 
 
